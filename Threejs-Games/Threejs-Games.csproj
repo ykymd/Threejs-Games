@@ -26,10 +26,12 @@
     <Content Include="index.html" />
     <Content Include="Scripts\three.js\build\three.js" />
     <Content Include="Scripts\three.js\build\three.min.js" />
+    <Content Include="threejswebglsample.html" />
     <Content Include="web.config" />
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="app.ts" />
+    <TypeScriptCompile Include="threejswebglsample.ts" />
     <TypeScriptCompile Include="Scripts\typings\threejs\detector.d.ts" />
     <TypeScriptCompile Include="Scripts\typings\threejs\three-canvasrenderer.d.ts" />
     <TypeScriptCompile Include="Scripts\typings\threejs\three-copyshader.d.ts" />
